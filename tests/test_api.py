@@ -1,7 +1,6 @@
-from selenium import webdriver
+import requests
 
-def teste_login_page():
-    driver = webdriver.Chrome()
-    driver.get("https://the-internet.herokuapp.com/login")
-    assert "Login Page" in driver.title
-    driver.quit()
+def test_api_login():
+    response = requests.get("https://jsonplaceholder.typicode.com/users/1")
+    assert response.status_code == 200
+    assert "Leanne Graham" in response.json()["name"]
