@@ -1,0 +1,4 @@
+selenium==4.0.0
+requests==2.26.0
+mysql-connector-python==8.0.28
+pytest==7.0.0
