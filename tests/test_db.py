@@ -14,4 +14,5 @@ def test_db_user():
     cursor = conexao.cursor()
     cursor.execute("SELECT nome FROM usuarios WHERE id = 1")
     resultado = cursor.fetchone()
+    print(f"Registros encontrados: {len(resultado)}")
     assert resultado[0] == "João Silva"
