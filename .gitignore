@@ -1,2 +1,17 @@
+# Arquivos do Python
+__pycache__/
+*.pyc
+
+# Variáveis de ambiente
 .env
 
+# Selenium/ChromeDriver
+chromedriver.exe
+
+.idea/
+__pycache__/
+.pytest_cache/
+venv/
+.venv/
+.env
+*.exe
