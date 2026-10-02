@@ -9,9 +9,7 @@ __pycache__/
 chromedriver.exe
 
 .idea/
-__pycache__/
 .pytest_cache/
 venv/
 .venv/
-.env
 *.exe
